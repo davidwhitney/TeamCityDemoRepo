@@ -19,7 +19,7 @@ namespace SomeClassLibrary.Test.Unit
         [Test]
         public void FailTest()
         {
-            Assert.That(true, Is.False);
+            Assert.That(true, Is.True);
         }
     }
 }
